@@ -1,6 +1,13 @@
 # vector
 This is a library for vector<TYPE> in C++
 
+# Constructors
+vector();
+
+vector(size_t);
+
+vector(vector&);
+
 # Methods
 size_t size();
 
@@ -19,6 +26,8 @@ TYPE& front();
 void push_back(TYPE&);
 
 void pop_back();
+
+vector& operator=(vector&);
 
 TYPE& operator[](size_t);
 
