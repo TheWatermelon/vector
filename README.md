@@ -1,5 +1,5 @@
 # vector
-This is a library for vector<TYPE> in C++
+This is a library for vector\<TYPE\> in C++
 
 # Constructors
 vector();
@@ -29,7 +29,7 @@ void pop_back();
 
 vector& operator=(vector&);
 
-TYPE& operator[](size_t);
+TYPE& operator\[\](size_t);
 
 TYPE& at(size_t);
 
